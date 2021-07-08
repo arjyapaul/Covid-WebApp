@@ -1,0 +1,64 @@
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+footer i{
+    padding:10px;
+}
+.hue{
+    font-family: 'Roboto Slab', serif;
+}
+.huehue{
+    font-family: 'Roboto Slab', serif;
+}
+.hero{
+    font-family: 'Ubuntu', sans-serif;
+}
+.herop{
+    font-family: 'Permanent Marker', cursive;
+    color:#b0f0a8;
+}
+.real{
+    font-family: 'Ubuntu', sans-serif;
+}
+.case,.death,.recovery{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+.ab{
+    text-align: center;
+    background-color:burlywood;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.ab button{
+    margin-top: 2%;
+}
+.ab h1{
+    margin-bottom: 2%;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+}
+.ab label{
+    margin-right: 2%;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bc{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+.caution{
+    color:crimson;
+    margin-top: 2%;
+    font-family: 'Roboto Slab', serif;
+}
+.failure{
+    color: tomato;
+}

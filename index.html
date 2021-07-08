@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Online Covid Stats</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Permanent+Marker&family=Roboto+Slab:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="images/2f34034e07aec48e75cc1da72f960fe1.jpg" class="bi me-2" width="40" height="32">
+                <span class="fs-4 hue">Covi-App</span>
+              </a>
+        
+              <ul class="nav nav-pills huehue">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cases</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Death</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Recovery</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white hero">Get Covid Stats in a second</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4 herop">This website enables you to know real time covid stats per day. It can offer you daily case, recovery, death per continent/
+                    country or event county. Try it out now to keep up with world.<br> "STAY HOME STAY SAFE"</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Add Extension</button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-4">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="b-example-divider mb-0"></div>
+
+          <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom real">Check Real Time Stats</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+                  <i class="fas fa-viruses fa-4x"></i>
+                
+                <h2>Case Wikipedia</h2>
+                <p class="case">In this section, You can check real time covid cases for both country and continent. Stats are strictly based on last 24 hours. Feel free to proceed.</p>
+                <a href="/caseCountry" class="icon-link">
+                  Check for any Country
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+                <br>
+                <a href="/caseContinent" class="icon-link">
+                    Check for any Continent
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                  </a>
+              </div>
+              <div class="feature col">
+                
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+                  <i class="fas fa-skull-crossbones fa-4x"></i>
+                <h2>Death Wikipedia</h2>
+                <p class="death">In this section, You can check real time covid deaths for both country and continent. Stats are strictly based on last 24 hours. Feel free to proceed.</p>
+                <a href="/deathCountry" class="icon-link">
+                  Check for any Country
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+                <br>
+                <a href="/deathContinent" class="icon-link">
+                    Check for any Continent
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                  </a>
+              </div>
+              <div class="feature col">
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+                  <i class="fas fa-hand-holding-medical fa-4x"></i>                
+                <h2>Recovery-Pedia</h2>
+                <p class="recovery">In this section, You can check real time covid recovery rate for both country and continent. Stats are strictly based on last 24 hours. Feel free to proceed.</p>
+                <a href="/recoveryCountry" class="icon-link">
+                  Check for any Country
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+                <br>
+                <a href="/recoveryContinent" class="icon-link">
+                    Check for any Continent
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p>&copy; ARJYA PAUL 2021</p>
+            <br>
+            <i class="fab fa-linkedin-in fa-2x"></i><i class="fas fa-envelope fa-2x"></i><i class="fab fa-facebook-f fa-2x"></i><i class="fab fa-instagram fa-2x"></i><i class="fab fa-github fa-2x"></i>
+        </footer>
+    </body>
+    </html>
